@@ -34,11 +34,6 @@ public class MainActivity extends ActionBarActivity {
             return "path to your audio file";
         }
 
-        /**
-         * Optional - provide list of segments (start and stop values in seconds) and their corresponding colors
-         *
-         * @return
-         */
         @Override
         protected List<Segment> getSegments() {
             return Arrays.asList(
